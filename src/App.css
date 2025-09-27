@@ -1,0 +1,74 @@
+header{
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h2{
+  margin: 0px;
+  margin-left: 30px;  
+  color: black;
+}
+.options{
+  margin-right: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.options div{
+  background-color: black;
+  padding: 7px;
+  border-radius: 5px;
+  padding-inline: 20px;
+}
+.HeroSpace{
+  width: 100%;
+  height: 500px;
+}
+.dotlottie{
+  position: absolute;
+  z-index: 2;
+}
+.HeroLine{
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  z-index: 0;
+  filter: blur(0.5);
+  color: rgb(79, 79, 79);
+}
+.Line{
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+}
+.videoContainer{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  z-index: 1;
+  /* background-color: black; */
+}
+.vdo{
+  width: 800px;
+  height: 450px;
+  border-radius: 8px;
+  margin-left: 40px;
+}
+.techStack{
+  height: 200px;
+  width: 100%;
+  background-color: gold;
+}
