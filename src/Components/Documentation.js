@@ -1,5 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import { useEffect, useState } from "react";
+import './Documentation.css'
 
 const Documentation = ({file}) =>{
 
@@ -21,8 +22,13 @@ const Documentation = ({file}) =>{
                 <button className="header-button about">About</button>
               </div>
             </header>
-            <div className="prose mx-auto p-6">
-                <ReactMarkdown>{content}</ReactMarkdown>
+            <div className="documentationContainer">
+                <div className="Docnav">
+
+                </div>
+                <div className="content">
+                    <ReactMarkdown>{content}</ReactMarkdown>
+                </div>
             </div>
         </>
     );
