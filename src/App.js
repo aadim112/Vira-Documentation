@@ -77,7 +77,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/Documentation" element={<Documentation />} />
+      <Route path="/Documentation" element={<Documentation file="example"/>} />
+      <Route path="/docs/:docId" element={<Documentation />} />
       <Route path='/' element={
         <div className="app-container">
           {/* Fixed Video Container */}
