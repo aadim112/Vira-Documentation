@@ -79,7 +79,7 @@ function App() {
     <Routes>
       <Route path="/Documentation" element={<Documentation file="example"/>} />
       <Route path="/docs/:docId" element={<Documentation />} />
-      <Route path='/' element={
+      <Route path='/Vira-Documentation' element={
         <div className="app-container">
           {/* Fixed Video Container */}
           <div

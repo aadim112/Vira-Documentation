@@ -17,3 +17,203 @@
 .content::-webkit-scrollbar {
     display: none; 
 }
+/* Navigation Styles */
+.Docnav {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-topic {
+    margin-bottom: 10px;
+}
+
+.nav-topic-title {
+    padding: 10px 12px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-topic-title:hover {
+    background-color: #e0e0e0;
+}
+
+.nav-topic-title.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-arrow {
+    font-size: 12px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.nav-subtopics {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav-subtopic {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.nav-subtopic:hover {
+    background-color: #e0e0e0;
+}
+
+.nav-subtopic.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Content Area Styling */
+.content {
+    flex: 1;
+    padding: 40px;
+    max-width: 900px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+/* Markdown Styling */
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.3em;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3em;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.content ul, .content ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+.content li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+.content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styling */
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.content table thead {
+    background-color: #f8f9fa;
+}
+
+.content table th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid #dee2e6;
+    background-color: #e9ecef;
+}
+
+.content table td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+}
+
+.content table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.content table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Code Block Styling */
+.content code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.content pre {
+    background-color: #1e1e1e;
+    border-radius: 6px;
+    padding: 0;
+    margin: 1em 0;
+    overflow-x: auto;
+}
+
+.content pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+}
+
+/* Blockquote Styling */
+.content blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 1em;
+    margin: 1em 0;
+    color: #666;
+    font-style: italic;
+}
+
+/* Horizontal Rule */
+.content hr {
+    border: none;
+    border-top: 2px solid #eee;
+    margin: 2em 0;
+}
+
+/* Center aligned content */
+.content div[align="center"] {
+    text-align: center;
+}
