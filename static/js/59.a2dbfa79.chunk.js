@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvira=self.webpackChunkvira||[]).push([[59],{7059:(e,a,s)=>{e.exports=s.p+"static/media/example.87c7e6bb574aabe52d62.md"}}]);

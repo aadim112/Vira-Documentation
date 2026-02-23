@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/Vira-Documentation/static/css/main.484933c3.css",
-    "main.js": "/Vira-Documentation/static/js/main.26a0628b.js",
-    "static/js/453.bae7533c.chunk.js": "/Vira-Documentation/static/js/453.bae7533c.chunk.js",
+    "main.css": "/Vira-Documentation/static/css/main.69022a3f.css",
+    "main.js": "/Vira-Documentation/static/js/main.3c84e843.js",
+    "static/js/860.96b8357c.chunk.js": "/Vira-Documentation/static/js/860.96b8357c.chunk.js",
+    "static/js/59.a2dbfa79.chunk.js": "/Vira-Documentation/static/js/59.a2dbfa79.chunk.js",
+    "static/js/453.2797f045.chunk.js": "/Vira-Documentation/static/js/453.2797f045.chunk.js",
     "static/media/HeroVideo.mp4": "/Vira-Documentation/static/media/HeroVideo.b59212e46749279fba40.mp4",
     "static/media/ViraVideo.mp4": "/Vira-Documentation/static/media/ViraVideo.792421545b3160d2e05c.mp4",
+    "static/media/example.md": "/Vira-Documentation/static/media/example.87c7e6bb574aabe52d62.md",
+    "static/media/InstallingOnSystem.md": "/Vira-Documentation/static/media/InstallingOnSystem.8bd78f9819f4e3fda22e.md",
     "index.html": "/Vira-Documentation/index.html",
-    "main.484933c3.css.map": "/Vira-Documentation/static/css/main.484933c3.css.map",
-    "main.26a0628b.js.map": "/Vira-Documentation/static/js/main.26a0628b.js.map",
-    "453.bae7533c.chunk.js.map": "/Vira-Documentation/static/js/453.bae7533c.chunk.js.map"
+    "main.69022a3f.css.map": "/Vira-Documentation/static/css/main.69022a3f.css.map",
+    "main.3c84e843.js.map": "/Vira-Documentation/static/js/main.3c84e843.js.map",
+    "453.2797f045.chunk.js.map": "/Vira-Documentation/static/js/453.2797f045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.484933c3.css",
-    "static/js/main.26a0628b.js"
+    "static/css/main.69022a3f.css",
+    "static/js/main.3c84e843.js"
   ]
 }
