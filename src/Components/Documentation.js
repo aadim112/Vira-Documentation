@@ -4,18 +4,21 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { useEffect, useState } from "react";
 import './Documentation.css'
+import { useNavigate } from "react-router-dom";
 
 const Documentation = ({file}) => {
     const [content, setContent] = useState('');
     const [activeFile, setActiveFile] = useState(file || 'Introduction');
     const [expandedTopics, setExpandedTopics] = useState({});
+    const navigate = useNavigate()
 
     const topics = {
         "Introduction": {
             "file": "example",
             "subtopics": [
                 { name: "Installing On System", file: "InstallingOnSystem" },
-                { name: "Updating The System", file: "UpdatingTheSystem" }
+                { name: "Updating The System", file: "UpdatingTheSystem" },
+                { name: "Restoring the Data", file: "InstallingOnSystem" }
             ]
         },
         "Modules": {
@@ -54,6 +57,8 @@ const Documentation = ({file}) => {
         setActiveFile(subtopic.file);
     };
 
+    const handleAbout = () => navigate('/Vira-Documentation');
+
     return (
         <>
             {/* Header */}
@@ -61,7 +66,7 @@ const Documentation = ({file}) => {
                 <h2>VIRA</h2>
                 <div className="header-options">
                     <button className="header-button download">Download</button>
-                    <button className="header-button about">About</button>
+                    <button className="header-button about" onClick={handleAbout} >About</button>
                 </div>
             </header>
             <div className="documentationContainer">
